@@ -1,0 +1,27 @@
+/* Pages Styles*/
+#nosotrosPage, .page {
+    main{
+        min-height: 100vh;
+        padding-bottom: 2rem;
+    }
+    h1,h2{
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+#nosotrosPage {
+    text-align: center;
+    #nosotrosHistoria {
+        margin: auto;
+        width: 70%;
+        text-align: justify;
+    }
+    section ul{
+        @extend #nosotrosHistoria
+    }
+    ul li {
+        text-align: left;
+    }
+    
+}
